@@ -46,5 +46,3 @@ for filepath in list_of_files:
         logging.info(f"{filename} is already exists")
 
         
-# 2/2/2/
-#kjaka
