@@ -40,3 +40,68 @@ x==========x]
 [2025-07-15 15:28:34,888: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2025-07-16 14:36:27,878: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-16 14:36:27,889: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-16 14:36:27,894: INFO: comman: created directory at: artifacts]
+[2025-07-16 14:36:27,897: INFO: comman: created directory at: artifacts\training]
+[2025-07-16 14:56:49,748: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-16 14:56:49,754: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-16 14:56:49,756: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-16 14:56:49,757: INFO: comman: created directory at: artifacts]
+[2025-07-16 14:56:49,758: INFO: comman: created directory at: artifacts/data_ingestion]
+[2025-07-16 14:56:49,758: INFO: data_ingestion_01: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-16 14:56:59,266: INFO: data_ingestion_01: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-16 14:57:00,553: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-16 14:57:00,557: INFO: main: *******************]
+[2025-07-16 14:57:00,558: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-16 14:57:00,568: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-16 14:57:00,577: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-16 14:57:00,579: INFO: comman: created directory at: artifacts]
+[2025-07-16 14:57:00,581: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2025-07-16 14:57:02,433: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-16 14:57:02,434: INFO: main: *******************]
+[2025-07-16 14:57:02,435: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-16 14:57:02,443: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-16 14:57:02,449: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-16 14:57:02,453: INFO: comman: created directory at: artifacts]
+[2025-07-16 14:57:02,455: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "d:\myprojectdata\AI_full_project\main.py", line 34, in <module>
+    model_trainer.main()
+  File "d:\myprojectdata\AI_full_project\src\cnnClassifier\pipeline\stage_03_model_training.py", line 22, in main
+    training_config = config.get_training_config()
+  File "d:\myprojectdata\AI_full_project\src\cnnClassifier\config\configuration.py", line 58, in get_training_config
+    training_data = os.path.join(self.config.data_ingestion.unzip_dir, "kidney-ct-scan-image")
+NameError: name 'os' is not defined
+[2025-07-16 14:59:43,282: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-16 14:59:43,290: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-16 14:59:43,293: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-16 14:59:43,294: INFO: comman: created directory at: artifacts]
+[2025-07-16 14:59:43,295: INFO: comman: created directory at: artifacts/data_ingestion]
+[2025-07-16 14:59:43,296: INFO: data_ingestion_01: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-16 14:59:52,792: INFO: data_ingestion_01: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-16 14:59:53,964: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-16 14:59:53,965: INFO: main: *******************]
+[2025-07-16 14:59:53,966: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-16 14:59:53,971: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-16 14:59:53,975: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-16 14:59:53,976: INFO: comman: created directory at: artifacts]
+[2025-07-16 14:59:53,978: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2025-07-16 14:59:55,728: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-16 14:59:55,728: INFO: main: *******************]
+[2025-07-16 14:59:55,729: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-16 14:59:55,733: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-16 14:59:55,736: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-16 14:59:55,737: INFO: comman: created directory at: artifacts]
+[2025-07-16 14:59:55,739: INFO: comman: created directory at: artifacts\training]
+[2025-07-16 15:06:02,724: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
