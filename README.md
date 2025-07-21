@@ -22,3 +22,17 @@ git clone https://github.com/surajkale99/AI_full_project.git
 
 step-4 requirements
 pip install -r requirements.txt
+
+
+mlflow link
+
+mlflow uri -:
+https://dagshub.com/surajkale99/AI_full_project.mlflow
+
+
+key -:
+
+e4f2406488322cebc687e5c389841eb67f8beeec
+
+region-:
+us-east-1

@@ -6,6 +6,7 @@ import time
 from src.cnnClassifier.entity.config import TrainingConfig
 from pathlib import Path
 
+import keras
 
 class Training:
     def __init__(self, config: TrainingConfig):
@@ -67,7 +68,7 @@ class Training:
 
     
     @staticmethod
-    def save_model(path: Path, model: tf.keras.Model):
+    def save_model(path: Path, model: keras.Model):
         model.save(path)
 
 

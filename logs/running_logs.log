@@ -105,3 +105,32 @@ x==========x]
 [2025-07-16 15:06:02,724: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-07-17 15:08:52,063: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-17 15:08:52,084: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-17 15:08:52,105: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-17 15:08:52,107: INFO: comman: created directory at: artifacts]
+[2025-07-17 15:08:52,108: INFO: comman: created directory at: artifacts/data_ingestion]
+[2025-07-17 15:08:52,110: INFO: data_ingestion_01: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-17 15:09:01,686: INFO: data_ingestion_01: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-17 15:09:03,396: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-17 15:09:03,397: INFO: main: *******************]
+[2025-07-17 15:09:03,397: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-17 15:09:03,403: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-17 15:09:03,410: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-17 15:09:03,411: INFO: comman: created directory at: artifacts]
+[2025-07-17 15:09:03,412: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2025-07-17 15:09:04,176: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-17 15:09:04,555: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-17 15:09:04,556: INFO: main: *******************]
+[2025-07-17 15:09:04,556: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-17 15:09:04,561: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-17 15:09:04,565: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-17 15:09:04,566: INFO: comman: created directory at: artifacts]
+[2025-07-17 15:09:04,567: INFO: comman: created directory at: artifacts\training]
+[2025-07-17 15:15:48,085: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
