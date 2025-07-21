@@ -134,3 +134,9 @@ x==========x]
 [2025-07-17 15:15:48,085: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-07-17 15:17:14,099: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-17 15:17:14,105: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-17 15:17:14,108: INFO: comman: created directory at: artifacts]
+[2025-07-17 15:17:54,011: INFO: comman: json file saved at: scores.json]
+[2025-07-17 15:17:59,235: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2025-07-17 15:18:00,715: INFO: builder_impl: Assets written to: C:\Users\Lenovo\AppData\Local\Temp\tmp3yga9_w_\model\data\model\assets]
