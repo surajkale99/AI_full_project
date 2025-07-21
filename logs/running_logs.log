@@ -190,3 +190,44 @@ x==========x]
 [2025-07-21 15:05:08,479: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-07-21 15:08:47,270: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-21 15:08:47,276: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-21 15:08:47,297: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-21 15:08:47,298: INFO: comman: created directory at: artifacts]
+[2025-07-21 15:08:47,299: INFO: comman: created directory at: artifacts/data_ingestion]
+[2025-07-21 15:08:47,300: INFO: data_ingestion_01: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-21 15:08:57,432: INFO: data_ingestion_01: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-21 15:08:58,453: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-21 15:08:58,454: INFO: main: *******************]
+[2025-07-21 15:08:58,454: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-21 15:08:58,460: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-21 15:08:58,464: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-21 15:08:58,465: INFO: comman: created directory at: artifacts]
+[2025-07-21 15:08:58,466: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2025-07-21 15:08:59,191: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-21 15:08:59,711: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-21 15:08:59,713: INFO: main: *******************]
+[2025-07-21 15:08:59,713: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-21 15:08:59,722: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-21 15:08:59,728: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-21 15:08:59,729: INFO: comman: created directory at: artifacts]
+[2025-07-21 15:08:59,730: INFO: comman: created directory at: artifacts\training]
+[2025-07-21 15:14:38,852: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-21 15:14:38,853: INFO: main: *******************]
+[2025-07-21 15:14:38,854: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-21 15:14:38,863: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-07-21 15:14:38,869: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-07-21 15:14:38,870: INFO: comman: created directory at: artifacts]
+[2025-07-21 15:15:18,379: INFO: comman: json file saved at: scores.json]
+[2025-07-21 15:15:18,381: INFO: comman: json file saved at: scores.json]
+[2025-07-21 15:15:24,743: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 13). These functions will not be directly callable after loading.]
+[2025-07-21 15:15:25,882: INFO: builder_impl: Assets written to: C:\Users\Lenovo\AppData\Local\Temp\tmpn98o5bxy\model\data\model\assets]
+[2025-07-21 15:16:06,841: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
